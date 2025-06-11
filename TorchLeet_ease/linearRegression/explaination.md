@@ -11,7 +11,7 @@ $$y = w \cdot X + b$$
 
 In simple terms, I define Linear Regression as "Glorified Line fitting over the curve".
 
-The loss function typically used is Mean Squared Error (MSE):
+The loss function used is Mean Squared Error (MSE):
 
 $$\text{MSE} = \frac{1}{n} \sum_{i=1}^n (y_i - \hat{y}_i)^2$$
 
