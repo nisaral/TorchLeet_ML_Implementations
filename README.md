@@ -4,9 +4,13 @@ A collection of PyTorch implementations for TorchLeet problems, additional ML/DL
 # Structure
 
 torchleet/: Implementations of TorchLeet problems (Easy, Medium, Hard).
+
 additional_models/: Custom implementations of models like ResNet, Attention, Diffusion.
+
 research_papers/: Implementations of seminal ML papers.
+
 notebooks/: Jupyter notebooks for analysis and experiments.
+
 scripts/: Training and utility scripts.
 
 # Setup
