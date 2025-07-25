@@ -23,7 +23,7 @@ Maintains expressiveness with fewer parameters per head ($ d_{\text{head}} = d_{
 
 
 
-Layman’s Explanation
+# Layman’s Explanation
 Imagine you’re at a crowded party with 100 people, and you need to find the most relevant conversations to join. You’re the query ($ Q $), and each person has a key ($ K $) describing their topic and a value ($ V $) with the details of their story. You want to focus on the people whose topics match yours.
 
 Single Attention: You compare your interest (query) to everyone’s topic (key) to calculate a “match score.” You scale these scores (to avoid shouting matches), maybe ignore some people (masking, e.g., if they’re talking about spoilers), and then weight their stories (values) based on how relevant they are. You combine these stories into one summary.
